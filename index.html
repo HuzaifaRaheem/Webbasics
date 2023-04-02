@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Solution For Module 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: 'Alkatra', cursive;
+        }
+        h1{
+            padding :3vh 5vw;
+            margin: 2vh 5vw;
+            display: flex;
+            justify-content: center;
+        }
+        .sec{
+            display: flex;
+            
+        }
+        .sec div{
+            border: 2px solid black;
+            margin: 2vh 1vw;
+            padding: 0px 0px;
+            background-color: rgb(179, 176, 176);
+        }
+        .sec h3{
+            border: 2px solid black;
+            float: right;
+            padding: 0 2vw;
+            
+        }
+        .sec p{
+            padding: 1vh 1vw;
+            padding-top: 4vh;
+        }
+        @media screen and (max-width:767px){
+            .sec{
+                display:block;
+                padding-left: 2vw ;
+                padding-right: 2vw ;
+                
+            }
+        }
+        @media screen and (max-width:991px)and (min-width:768px ){
+        
+            .sec{
+                display: block;
+                padding-left: 2vw ;
+                padding-right: 2vw ;
+            }
+            .sec div{
+                float: left;
+                width: 45%;
+            }
+            #sushi{
+                width: 93%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Menu</h1>
+    </div>
+    <div class="sec">
+        <div class="secton">
+            <h3 style="background-color:tomato;">Chicken</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptate iure obcaecati saepe vitae aperiam, possimus culpa distinctio reiciendis commodi earum temporibus ab fugiat sapiente repellendus optio nisi magnam. Consequuntur odit aperiam reprehenderit alias id.</p>
+        </div>
+        
+    
+    
+        <div class="secton">
+            <h3  style="background-color:red; color: white;">Beef</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptate iure obcaecati saepe vitae aperiam, possimus culpa distinctio reiciendis commodi earum temporibus ab fugiat sapiente repellendus optio nisi magnam. Consequuntur odit aperiam reprehenderit alias id.</p>
+        </div>
+        
+    
+    
+        <div id="sushi" class="secton sushi">
+            <h3 style="background-color:yellowgreen;">Sushi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptate iure obcaecati saepe vitae aperiam, possimus culpa distinctio reiciendis commodi earum temporibus ab fugiat sapiente repellendus optio nisi magnam. Consequuntur odit aperiam reprehenderit alias id.</p>
+        </div>
+    </div>   
+    
+</body>
+</html>
